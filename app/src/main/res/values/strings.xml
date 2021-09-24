@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Ficurred</string>
+    <string name="req1">Select Your Role</string>
+    <string name="req2">I agree to the Terms of Services and Privacy Policy</string>
+    <string name="logo_des">Logo</string>
+    <string name="q1">Don\'t have an account?</string>
+    <string name="r_manager">Restaurant Manager</string>
+    <string name="r_customer">Customer</string>
+    <string name="r_admin">Admin</string>
+    <string name="r_db">Delivery Rider</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="hint1">Enter Your Email Address here</string>
+    <string name="hint2">Enter Your password here</string>
+    <string name="role_selection">Select Your Role:</string>
+</resources>
