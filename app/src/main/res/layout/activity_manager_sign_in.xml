@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_color"
-    tools:context=".SignUp">
+    tools:context=".ManagerSignIn">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView2"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -18,151 +18,115 @@
         app:srcCompat="@drawable/logo" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="-8dp"
-        android:text="@string/sign_up"
+        android:text="@string/sign_in"
         android:textColor="@color/theme_color"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
-        android:labelFor="@id/sign_up_email_address"
+        android:labelFor="@id/admin_email_address"
         android:text="@string/email"
         android:textColor="@color/theme_color"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
-        android:id="@+id/sign_up_email_address"
+        android:id="@+id/admin_email_address"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="@string/hint1"
+        android:importantForAutofill="no"
         android:inputType="textEmailAddress"
         android:minHeight="48dp"
-        android:textColor="@color/theme_color"
-        android:textColorHighlight="@color/theme_color"
         android:textColorHint="#616161"
-        android:textColorLink="@color/theme_color"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
         tools:ignore="DuplicateSpeakableTextCheck" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="12dp"
-        android:labelFor="@id/sign_up_password"
+        android:labelFor="@id/admin_signIn_password"
         android:text="@string/password"
         android:textColor="@color/theme_color"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sign_up_email_address" />
+        app:layout_constraintTop_toBottomOf="@+id/admin_email_address" />
 
     <EditText
-        android:id="@+id/sign_up_password"
+        android:id="@+id/admin_signIn_password"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="@string/hint2"
+        android:importantForAutofill="no"
         android:inputType="textPassword"
         android:minHeight="48dp"
         android:textColorHint="#616161"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView9"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="12dp"
-        android:text="@string/role_selection"
-        android:textColor="@color/theme_color"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sign_up_password" />
-
-    <RadioGroup
-        android:id="@+id/sign_up_role"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="32dp"
-        android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10">
-
-        <RadioButton
-            android:id="@+id/radio_customer"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/r_customer"
-            android:textSize="14sp" />
-
-        <RadioButton
-            android:id="@+id/radio_manager"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/r_manager"
-            android:textSize="14sp" />
-
-        <RadioButton
-            android:id="@+id/radio_db"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/r_db"
-            android:textSize="14sp" />
-    </RadioGroup>
-
-    <CheckBox
-        android:id="@+id/agreement_chk"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="32dp"
-        android:text="@string/req2"
-        android:textColor="@color/black"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sign_up_role" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="DuplicateSpeakableTextCheck" />
 
     <Button
-        android:id="@+id/button_sign_up"
+        android:id="@+id/button_sign_in"
         android:layout_width="200dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
         android:layout_marginTop="12dp"
-        android:layout_marginEnd="32dp"
-        android:background="@color/theme_color"
-        android:onClick="RedirectPage"
-        android:text="@string/sign_up"
+        android:layout_marginEnd="148dp"
+        android:onClick="signIn"
+        android:text="@string/sign_in"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/agreement_chk" />
+        app:layout_constraintTop_toBottomOf="@+id/admin_signIn_password"
+        tools:ignore="DuplicateSpeakableTextCheck" />
 
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="96dp"
+        android:text="@string/q1"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/admin_signIn_password" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:minHeight="48dp"
+        android:onClick="redirectToSignUp"
+        android:text="@string/sign_up"
+        android:textColor="@color/theme_color"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

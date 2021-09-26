@@ -16,8 +16,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void redirectToManager(View view) {
-        Intent intent = new Intent(this, ManagerActivity.class);
+        Intent intent = new Intent(this, ManagerSignIn.class);
         startActivity(intent);
     }
 
+    public void redirectToAdmin(View view) {
+        Intent intent = new Intent(this, AdminSignIn.class);
+        startActivity(intent);
+    }
 }

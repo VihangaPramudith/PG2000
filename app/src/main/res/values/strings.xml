@@ -15,4 +15,22 @@
     <string name="hint1">Enter Your Email Address here</string>
     <string name="hint2">Enter Your password here</string>
     <string name="role_selection">Select Your Role:</string>
+    <string name="greet1">Welcome to Restaurant Manager Dashboard</string>
+    <string name="manager_op1">Manage Administrator Profiles</string>
+    <string name="manager_op2">Manage My Profile</string>
+    <string name="manager_op3">Income Report</string>
+    <string name="log_out">Log Out</string>
+    <string name="update_manager">Update Profile</string>
+    <string name="delete_manager">Delete Profile</string>
+    <string name="com_update">Update</string>
+    <string name="com_delete">Delete</string>
+    <string name="com_view">View Administrator Profiles</string>
+    <string name="add_admin">Add an Administrator</string>
+    <string name="rem_admin">Remove an Administrator</string>
+    <string name="rem">Remove</string>
+    <string name="add">Add</string>
+    <string name="admin_req1">Enter Administrator Email Address</string>
+    <string name="admin_req2">Enter Administrator Password</string>
+    <string name="view_head">All Administrator Profiles</string>
+    <string name="income_head">Income Report</string>
 </resources>

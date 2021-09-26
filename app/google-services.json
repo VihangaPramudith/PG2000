@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "601205134673",
+    "project_id": "ficurred",
+    "storage_bucket": "ficurred.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601205134673:android:8670371bba74deb99a2f70",
+        "android_client_info": {
+          "package_name": "com.example.ficurred"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601205134673-75dfvu2iffeotvj27jl1jgjg4aup4h9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFWgTOHOC7n3VoUe5UfRhpkudp_OTVfyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601205134673-75dfvu2iffeotvj27jl1jgjg4aup4h9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

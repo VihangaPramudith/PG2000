@@ -3,9 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/suner/AndroidStudioProjects/Ficurred/app/src/main/res/layout/activity_main.xml" value="0.536" />
+        <entry key="..\:/Users/suner/AndroidStudioProjects/Ficurred/app/src/main/res/layout/activity_admin_sign_in.xml" value="0.4" />
+        <entry key="..\:/Users/suner/AndroidStudioProjects/Ficurred/app/src/main/res/layout/activity_main.xml" value="0.4" />
         <entry key="..\:/Users/suner/AndroidStudioProjects/Ficurred/app/src/main/res/layout/activity_manager.xml" value="0.536" />
-        <entry key="..\:/Users/suner/AndroidStudioProjects/Ficurred/app/src/main/res/layout/activity_sign_up.xml" value="0.37271937445699393" />
+        <entry key="..\:/Users/suner/AndroidStudioProjects/Ficurred/app/src/main/res/layout/activity_manager_admin_handling.xml" value="0.4" />
+        <entry key="..\:/Users/suner/AndroidStudioProjects/Ficurred/app/src/main/res/layout/activity_manager_dashboard.xml" value="0.4" />
+        <entry key="..\:/Users/suner/AndroidStudioProjects/Ficurred/app/src/main/res/layout/activity_manager_income_report.xml" value="0.4" />
+        <entry key="..\:/Users/suner/AndroidStudioProjects/Ficurred/app/src/main/res/layout/activity_manager_profile.xml" value="0.4" />
+        <entry key="..\:/Users/suner/AndroidStudioProjects/Ficurred/app/src/main/res/layout/activity_manager_sign_in.xml" value="0.4" />
+        <entry key="..\:/Users/suner/AndroidStudioProjects/Ficurred/app/src/main/res/layout/activity_manager_view_admin_profiles.xml" value="0.4" />
+        <entry key="..\:/Users/suner/AndroidStudioProjects/Ficurred/app/src/main/res/layout/activity_sign_up.xml" value="0.4" />
       </map>
     </option>
   </component>
