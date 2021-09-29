@@ -62,7 +62,6 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
         android:background="@color/theme_color"
-        android:onClick="redirectToManager"
         android:text="@string/r_manager"
         android:textColor="@color/white"
         app:layout_constraintBaseline_toBaselineOf="@+id/button_admin"

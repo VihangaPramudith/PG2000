@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">Ficurred</string>
+    <string name="app_name">AdminApp</string>
+
     <string name="req1">Select Your Role</string>
     <string name="req2">I agree to the Terms of Services and Privacy Policy</string>
     <string name="logo_des">Logo</string>
